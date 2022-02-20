@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+ body{
+    width: 70%;
+     margin: auto;
+     font-family: Poppins;
+} 
+
+.main-div{
+   
+    background: rgba(180, 178, 178, 0.247);
+    width: 100%;
+    height: auto;
+    margin: 1rem 0rem 0rem;
+    padding: 2rem;
+    border-bottom: solid;
+ }
+
+
+.topmaindiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;    
+    
+    
+    
+}
+
+.img-div{
+
+    width: 50%;
+    
+   
+}
+
+
+
+.text-div{
+   
+    width: 40%;
+    
+}
+
+.div-intro{
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* .div-intro > p img{
+
+    flex-direction: column; */
+/* } */
+
+p{
+    display: inline;
+}
+
+
+/*-------- header   -------*/
+
+
+.middle{
+
+    background: rgba(180, 178, 178, 0.247);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0rem 0rem;
+    /* padding: 2rem; */
+
+    position: relative;
+    bottom: 1rem;
+
+
+
+    
+    
+}
+
+.left{
+    
+    padding: 2rem;
+    border-right: solid;
+    width: 55%;
+    /* position: relative;
+    right: -4rem; */
+    
+}
+
+.right{
+
+    padding: 2rem;
+    width: 45%;
+}
+
+.skill{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.div-1{
+    width: 50%;
+}
+
+.div-2{
+    width: 50;
+} 
+
+
+
+.certificate>h4{
+    font-size: 1.3rem;
+}
+
+ul{
+    padding-left: 1rem;
+}
+
+.saad{
+    position: absolute;
+    right: 38rem;
+}
